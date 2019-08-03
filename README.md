@@ -1,15 +1,15 @@
 # Time-HoloSpectrum
 Time-HoloSpectrum，Holospectrum，Full-Spectrum and  Full Vector Spectrum for rotating machinery fault diagnosis。用于旋转机械故障诊断的全频谱，全息谱以及全矢谱。 
 
-## [Full Spectrum](./doc/fs.md)
+## [Full Spectrum 全频谱](./doc/fs.md)
   全频谱，最早由[Donald E. Bently](https://en.wikipedia.org/wiki/Donald_E._Bently)提出，后在Bently公司得到推广。基本思想是使用两只传感器测量旋转机械的振动，并将两只传感器信号进行融合，从中提取特征用于旋转机械的故障诊断。旋转机械转子轴的振动在不同阶次分量上可以描述为进动椭圆。而进动椭圆又可以分解为两个相反方向进动的正圆。这两个进动正圆的进动方向分别为正、反进动。将正圆的半径值绘制在频率幅值图上，正进动圆为正频率，反进动圆为负频率。由此可以得到由两只传感器信号合成的全频谱图。由全谱图，正负频率分量的幅值可以判断振动的强度以及进动的方向。
   
-## [Holospectrum](./doc/hols.md)
+## [Holospectrum 全息谱](./doc/hols.md)
   全息谱，由西安交通大学[屈梁生](https://baike.baidu.com/item/%E5%B1%88%E6%A2%81%E7%94%9F)教授提出。有著作《机械故障的全息诊断原理》，及大量论文。成果获得国家技术发明二等奖。主要思想是将多传感器振动信号融合，绘制出不同阶次信号的椭圆轨迹，并考虑其相位关系信息。使得诊断信息比全频谱更加全面，也更准确。得到广泛应用。
   
   1. 屈梁生. 机械故障的全息诊断原理[M]. 科学出版社, 2007.
 
-## [Full vector spectrum](./doc/fvs.md)
+## [Full vector spectrum 全矢谱](./doc/fvs.md)
   全矢谱，由郑州大学[韩捷](http://www5.zzu.edu.cn/mech/info/1074/1777.htm)教授提出。是全频谱和全息谱技术的进一步发展。将旋转机械融合信号谐波分量椭圆轨迹的长半轴和短半轴定义为振动的主振矢和幅振矢。绘制主振矢幅值与频率的谱图，同时求得轨迹椭圆的相位、离心率等参数。全矢谱图不受传感器安装方位的影响，更加全面的反映了振动的特性。
   
   2. 韩捷. 全矢谱技术及设备故障诊断应用研究 [D][D]. 上海: 同济大学, 2005.
